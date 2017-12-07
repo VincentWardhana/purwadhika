@@ -79,6 +79,7 @@ $db['default']['password'] = 'db@neurosoft2014';
 $db['default']['database'] = 'Neuromotor';
 $db['default']['port'] = 1433;
 
+
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
