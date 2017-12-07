@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'neuromotor.database.windows.net',
-	'username' => 'purwa',
-	'password' => 'db@neurosoft2014',
-	'database' => 'Neuromotor',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => 'usbw',
+	'database' => 'purwadhika',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
