@@ -73,10 +73,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'neuromotor.database.windows.net';
-$db['default']['username'] = 'purwa';
+$db['default']['hostname'] = 'rs7sqkrnlz.database.windows.net';
+$db['default']['username'] = 'purwa@rs7sqkrnlz';
 $db['default']['password'] = 'db@neurosoft2014';
-$db['default']['database'] = 'Neuromotor';
+$db['default']['database'] = 'neuromotor2';
 $db['default']['port'] = 1433;
 
 
