@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'tcp:neuromotor.database.windows.net,1433',
+	'hostname' => 'neuromotor.database.windows.net,1433',
 	'username' => 'purwa',
 	'password' => 'db@neurosoft2014',
 	'database' => 'Neuromotor',
