@@ -70,13 +70,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'default';
+/* $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'tcp:rs7sqkrnlz.database.windows.net';
-$db['default']['username'] = 'purwa';
-$db['default']['password'] = 'db@neurosoft2014';
-$db['default']['database'] = 'neuromotor2';
+$db['default']['hostname'] = 'VINCENT-PC';
+$db['default']['username'] = 'sa';
+$db['default']['password'] = 'abc123';
+$db['default']['database'] = 'showroom';
 $db['default']['port'] = 1433;
 
 
@@ -90,4 +90,29 @@ $db['default']['char_set'] = 'utf8';
 $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+$db['default']['stricton'] = FALSE; */
+
+$active_group = 'default';
+$query_builder = TRUE;
+
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'VINCENT-PC',
+	'username' => 'sa',
+	'password' => 'abc123',
+	'database' => 'showroom',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
